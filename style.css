@@ -15,6 +15,7 @@
     height: 100vh;
     
   }
+  
 
   .heading{
     color: #fff;
@@ -61,9 +62,7 @@
     background-color: #ccc;
     color:#fa6d1b;
     font-weight: 600;
-    border-radius: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    
+    margin-top: 20px;
    
 }
