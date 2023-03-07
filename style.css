@@ -1,0 +1,69 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Allerta+Stencil&family=Anton&family=Caveat&family=Cinzel&family=Merriweather:ital@0;1&family=Open+Sans:ital,wght@0,400;1,300&family=Playfair+Display+SC:ital,wght@0,400;1,900&family=Poppins:ital,wght@0,400;1,300&family=Prosto+One&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&family=Seymour+One&family=Shadows+Into+Light&family=Sofia+Sans&family=Sofia+Sans+Extra+Condensed&family=Uchen&display=swap');
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/Depositphotos_9391095_xl-2015-e1551895397635.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+  }
+
+  .heading{
+    color: #fff;
+    margin-top: 1em;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .inputdata .search{
+    background: white;
+    border: none;
+    border-bottom: 1px #ccc solid;
+   
+    height: 40px;
+    color: #fff;
+    font-size: 1.1em;
+}
+.inputdata.search:focus{
+    outline: none;
+}
+.inputdata.search::placeholder{
+  color:#ccc;  
+}
+.submit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:1.5em;
+    margin: 0;
+    border: none;
+    outline: none;
+    background: #fa6d1b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: 0.4s;
+    }
+    .submit:hover{
+        background: #fff !important;
+        color: #000;
+    }
+
+.result{
+    
+    background-color: #ccc;
+    color:#fa6d1b;
+    font-weight: 600;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
