@@ -19,13 +19,21 @@ function display(WordData){
     aud=WordData[0].phonetics[0].audio
 
     result.innerHTML=`
-    <audio src="${aud}" controls   class="mt-2">
-    
-</audio>
-    <h1><srong> ${word2} </srong> </h1>
-    <p> ${meaning} </p>
+   <div class="container">
+       
+        
+                <audio src="${aud}"  controls="controls"     class="mt-2">
+                
+            </audio>
+                <h1><srong> ${word2} </srong> </h1>
+                <p> ${meaning} </p>
+        
+   </div >
     `
 }
+
+
+
 
 
 
